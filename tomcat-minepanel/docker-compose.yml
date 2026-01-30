@@ -1,0 +1,16 @@
+version: "3.7"
+
+services:
+  minepanel:
+    image: ketbom/minepanel:latest
+    container_name: minepanel
+    restart: unless-stopped
+    ports:
+      - "8443:8443"
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+      - ${APP_DATA_DIR}/servers:/servers
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - MP_PORT=8443
+      - MP_DATA_DIR=/data
