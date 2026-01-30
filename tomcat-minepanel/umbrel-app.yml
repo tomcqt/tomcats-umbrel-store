@@ -1,0 +1,19 @@
+manifestVersion: 1
+
+id: minepanel
+name: Minepanel
+tagline: Minecraft server manager with a clean web UI
+icon: https://raw.githubusercontent.com/ketbom/minepanel/main/frontend/public/favicon.png
+category: Gaming
+version: "1.0.0"
+port: 8443
+description: >
+  Minepanel is a modern Minecraft server control panel with live console,
+  file editor, Fabric/Forge support, and full access to server files.
+
+developer: ketbom
+website: https://minepanel.ketbome.lat
+repo: https://github.com/ketbom/minepanel
+support: https://github.com/ketbom/minepanel/issues
+
+dependencies: []
